@@ -17,7 +17,7 @@ public class HomeController extends Controller {
      * <code>GET</code> request with a path of <code>/</code>.
      */
     public Result index() {
-        return ok(views.html.index.render());
+        return ok(index.render("Games"));
     }
 
     public Result games() {
@@ -30,6 +30,10 @@ public class HomeController extends Controller {
 
     public Result reviews(){
         return ok(views.html.reviews.render());
+    }
+
+    public Result contact(){
+        return ok(views.html.contact.render());
     }
 
 }

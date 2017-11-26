@@ -55,10 +55,12 @@ Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
 			<a href="/games">Games</a>
 			<a href="/about">About Us</a>
 			<a class="active" href="/reviews">Reviews</a>
+			<a href="/contact">Contact Us</a>
+			
 	</nav>
 
-	<div class = "games">
-		<h3>Reviews</h3>
+	<div class = "about">
+		<h3>Contact details</h3>
 		<p>Content Here</p>
 		<p>Content Here</p>
 		<p>Content Here</p>
@@ -106,9 +108,9 @@ Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
 
               /*
                   -- GENERATED --
-                  DATE: Fri Nov 24 15:55:16 GMT 2017
+                  DATE: Fri Nov 24 17:46:00 GMT 2017
                   SOURCE: /home/wdd/webapps/play/ca2/app/views/reviews.scala.html
-                  HASH: 3490119e58f9f0105b65b5fcb2e0f76eea591cf6
+                  HASH: 75af90f4caefaf2cbe61b770c4dcb19b7029b240
                   MATRIX: 1032->0
                   LINES: 33->1
                   -- GENERATED --

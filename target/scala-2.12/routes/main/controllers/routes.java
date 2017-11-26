@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/wdd/webapps/play/ca2/conf/routes
-// @DATE:Fri Nov 24 15:52:31 GMT 2017
+// @DATE:Fri Nov 24 17:41:16 GMT 2017
 
 package controllers;
 
