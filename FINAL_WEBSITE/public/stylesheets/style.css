@@ -1,0 +1,134 @@
+.container{
+    height: auto;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #009975;
+    border: .08em solid black;
+}
+
+.games{
+    background-color: white;
+    margin-left: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: .5%;
+    border: .08em solid black;
+    height: 80%;
+    width: 49%;
+    color: black;
+    float: right;
+}
+
+.about{
+    padding-left: .3em;
+    background-color: white;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: .5%;
+    border: .08em solid black;
+    height: 40%;
+    width: 49%;
+    color: black;
+    float: left;
+}
+
+.reviews{
+    padding-left: .3em;
+    background-color: white;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: .5%;
+    border: .08em solid black;
+    height: 40%;
+    width: 49%;
+    color: black;
+    float: left;
+}
+
+header{
+    height: 10%;
+    width: 98%;
+    background-color: #009975;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+header h1{
+    text-align: left;
+    font-family: 'Rye';
+    font-size: 50px;
+    color: white;
+}
+
+h3{
+    text-align: center;
+}
+
+body{
+    background-color: 	gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer{
+    text-align: center;
+    width: 98%;
+    background-color: #009975;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    clear: both;
+    border-top: .05em solid black;
+    padding-left: 1.3em;
+}
+
+.games img{
+		width: 30%;
+		margin-left:55pt;
+		margin-right:25pt;
+		margin-bottom:20pt;
+}
+
+.gamesMain{
+	background-color: white;
+    border: .08em solid black;
+    margin-bottom: 2em;
+}
+
+.gamesMain h3{
+	padding-left: 1em;
+    text-align: left;
+    text-decoration: underline;
+	
+}
+
+textarea{
+    width:100%;
+}
+
+button{
+width:100%;
+margin-top: 5pt;
+margin-bottom: 5pt;
+}
+
+.wt{
+	display: block;
+    margin: auto;
+    width: 45%;
+	padding-bottom: 2em;
+	float: center;
+}
+
+.review{
+	background-color: white;
+	border: .08em solid black;
+}
+
+p{
+	padding-left: 2em;
+	padding-right: 2em;
+}

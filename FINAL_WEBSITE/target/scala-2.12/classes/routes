@@ -1,0 +1,52 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+
+GET     /                           controllers.HomeController.index
+
+GET     /games                      controllers.HomeController.games
+
+GET     /about                      controllers.HomeController.about
+
+GET     /reviews                     controllers.HomeController.reviews
+
+GET     /Overwatch                  controllers.HomeController.Overwatch
+
+GET     /WarThunder                 controllers.HomeController.WarThunder
+
+GET     /shadowOfWar                controllers.HomeController.ShadowOfWar
+
+GET     /injustice                  controllers.HomeController.Injustice
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+
+GET     /stylesheets/*file          @controllers.Assets.at(path="/public/stylesheets", file)
+
+# images
+
+GET    /home/wdd/webapps/play/ca2/public/images/Overwatch.png               @controllers.Assets.at(path="/public/images", file="Overwatch.png")
+
+GET    /home/wdd/webapps/play/ca2/public/images/CelticC.png                 @controllers.Assets.at(path="/public/images", file="CelticC.png")
+
+GET    /home/wdd/webapps/play/ca2/public/images/OverwatchReview.png         @controllers.Assets.at(path="/public/images", file="OverwatchReview.png")
+
+GET    /home/wdd/webapps/play/ca2/public/images/warThunder1.png             @controllers.Assets.at(path="/public/images", file="warThunder1.png")
+
+GET    /home/wdd/webapps/play/ca2/public/images/shadowofwar1.png            @controllers.Assets.at(path="/public/images", file="shadowofwar1.png")
+
+GET    /home/wdd/webapps/play/ca2/public/images/Injustice.png               @controllers.Assets.at(path="/public/images", file="Injustice.png")
+
+GET    /home/wdd/webapps/play/ca2/public/images/warThunder2.png             @controllers.Assets.at(path="/public/images", file="warThunder2.png")
+
+GET    /home/wdd/webapps/play/ca2/public/images/ShadowofWarReview.png       @controllers.Assets.at(path="/public/images", file="ShadowofWarReview.png")
+
+GET    /home/wdd/webapps/play/ca2/public/images/InjusticeReview.png         @controllers.Assets.at(path="/public/images", file="InjusticeReview.png")
+
+GET    /home/wdd/webapps/play/ca2/public/images/overwatchLogo.jpg           @controllers.Assets.at(path="/public/images", file="overwatchLogo.jpg")
+
+GET    /home/wdd/webapps/play/ca2/public/images/shadowOfWar.jpg             @controllers.Assets.at(path="/public/images", file="shadowOfWar.jpg")
+
+GET    /home/wdd/webapps/play/ca2/public/images/warthunder3.jpg             @controllers.Assets.at(path="/public/images", file="warthunder3.jpg")
+
+GET    /home/wdd/webapps/play/ca2/public/images/injustice2.jpg              @controllers.Assets.at(path="/public/images", file="injustice2.jpg")
